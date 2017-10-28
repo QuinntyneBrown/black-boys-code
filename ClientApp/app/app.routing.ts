@@ -9,7 +9,7 @@ export const ROUTES = [
         component: LandingPageComponent
     },
     {
-        path: 'donation',
+        path: 'donations',
         component: DonationPageComponent
     }
 ]

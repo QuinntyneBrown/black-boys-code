@@ -1,21 +1,23 @@
 :host {
     display: block;
     background-color: #333;
-    height: 42px;
+    --header-height: 65px;
+    height: var(--header-height);
 }
 
 .container {
     margin: 0px 20px 0px 20px;
     padding: 0;
-    height: 42px;
+    height: var(--header-height);
     display: grid;
-    grid-template-columns: 20px 1fr 20px;
-    grid-gap: 0px;
+    grid-template-columns: 20px 1fr;
+    grid-gap: 40px;
 }
 
 ce-hamburger-button {
-    margin: 10.5px 0px 0px 0px;
+    margin: 21px 0px 0px 0px;
     grid-column: 1;
+    background-color:#333;
 }
 
 img {
@@ -27,11 +29,10 @@ img {
 
 h1 {
     grid-column: 2;
-    text-align: center;
     color: #fff;
     font-size: 1.5em;
     font-weight: 100;
-    line-height: 42px;
+    line-height: var(--header-height);
     margin: 0px;
     padding: 0px;
     user-select: none;

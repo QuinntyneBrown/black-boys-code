@@ -12,6 +12,7 @@ const providers = [
 ];
 
 const declarables = [
+    DonationPageComponent,
     LandingPageComponent
 ];
 

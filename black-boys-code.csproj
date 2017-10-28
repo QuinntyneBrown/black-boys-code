@@ -121,6 +121,7 @@
       <DependentUpon>landing-page.component.html</DependentUpon>
     </TypeScriptCompile>
     <TypeScriptCompile Include="ClientApp\app\pages\pages.module.ts" />
+    <TypeScriptCompile Include="ClientApp\app\shared\behaviors\index.ts" />
     <TypeScriptCompile Include="ClientApp\app\shared\constants.ts" />
     <TypeScriptCompile Include="ClientApp\app\shared\components\header.component.ts">
       <DependentUpon>header.component.html</DependentUpon>
@@ -128,7 +129,11 @@
     <TypeScriptCompile Include="ClientApp\app\shared\components\hamburger-button.component.ts">
       <DependentUpon>hamburger-button.component.html</DependentUpon>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="ClientApp\app\shared\models\donation.model.ts" />
+    <TypeScriptCompile Include="ClientApp\app\shared\models\donor.model.ts" />
+    <TypeScriptCompile Include="ClientApp\app\shared\models\index.ts" />
     <TypeScriptCompile Include="ClientApp\app\shared\services\donations.service.ts" />
+    <TypeScriptCompile Include="ClientApp\app\shared\services\event-hub.ts" />
     <TypeScriptCompile Include="ClientApp\app\shared\services\logger.service.ts" />
     <TypeScriptCompile Include="ClientApp\app\shared\services\storage.service.ts" />
     <TypeScriptCompile Include="ClientApp\app\shared\shared.module.ts" />
